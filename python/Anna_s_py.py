@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # comment out for GitHub
-#from flask import escape
+# from flask import escape
 
 def run_quickstart(request):
     #
