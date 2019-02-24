@@ -3,23 +3,18 @@
 Live Website: [https://shazam4petz.github.io/](https://shazam4petz.github.io/)
 
 
-## Our Team
+## Our Mission
 
-On Feb 09, 2019, our team was formed at the 2-day [Hack(H)er413](https://www.hackher413.com/) Hackathon hosted at [UMass Amherst](https://www.umass.edu/) out of our mutual love for animals and interest in tackling animal-related issues.
-
-* [Miffy Chen](https://miffychen.tech/): Website, Integration, Google Cloud Platform, Design
-* [Anna Mun](https://shazam4petz.github.io/aboutus/index.html): Cloud Vision API
-* [Qing Zhao](https://shazam4petz.github.io/aboutus/index.html): AutoML Model
-* [Stephanie Murphy](https://shazam4petz.github.io/aboutus/index.html): REST API
+Create a high-accuracy tool for shelters to **correctly identify breed combinations and percentages** of cross and mixed-bred dogs and cats using `machine learning`, and help **raise adoption rates** of shelter animals as a result.
 
 
 ## The Problem
 
-According to an article in the [Smithsonian](https://www.smithsonianmag.com/smart-news/genetic-testing-shows-animal-shelters-often-misidentify-dogs-breeds-180970136/) (2018), there are roughly 3.3 million dogs that enter animal shelters in the U.S. each year, but only an alarming **67%** were correctly identified of their primary or secondary breed by shelter staffs. Leaving **over 1.089 million dogs** across the country to be **misidentified or mislabeled** yearly.
+According to an article in the [Smithsonian](https://www.smithsonianmag.com/smart-news/genetic-testing-shows-animal-shelters-often-misidentify-dogs-breeds-180970136/) (2018), roughly 3.3 million dogs enter animal shelters in the U.S. each year, but only an alarming **67%** are correctly identified of their primary or secondary breed by shelter staffs. Leaving **over 1.089 million dogs** across the country to be **misidentified or mislabeled** yearly.
 
-Currently, there are no standardized procedures across shelters nationwide when identifying breeds of dogs and cats. The accuracy rate for breed-identification varies significantly from shelter to shelter, and staff to staff. [Studies show](https://www.vetmed.ufl.edu/2016/02/17/dna-studies-reveal-that-shelter-workers-often-mislabel-dogs-as-pit-bulls/) that as high as **48%** of dogs with no genetic evidence of being Pit Bulls have been misidentified as **Pit Bull**-type dogs - one of the **most commonly restricted dog breeds** of many "pet-friendly" rental properties.
+Currently, there are no standardized procedures across the U.S. for identifying breeds of dogs and cats. The accuracy rate for breed-identification varies significantly from shelter to shelter and staff to staff. [Studies show that](https://www.vetmed.ufl.edu/2016/02/17/dna-studies-reveal-that-shelter-workers-often-mislabel-dogs-as-pit-bulls/) as high as **48%** of dogs with no genetic evidence of being Pit Bulls have been misidentified as Pit Bull-type dogs. Widely *(and incorrectly)* believed to be "dangerous" and aggressive in nature, **Pit Bulls** have one of the **lowest adoption rates**, and maintains to be **the most commonly restricted dog breed** from "pet-friendly" rental properties.
 
-**Inaccurate breed identifications of shelter animals drastically limit their pool of potential adopters, and as a result, lowers their chances of being adopted.**
+Inaccurate breed-labelling of shelter animals **drastically limits their pool of potential adopters**, and as a result, **directly lowers their chances of being adopted.**
 
 <!--
 
@@ -33,9 +28,6 @@ Sadly, this is not something we can reverse within a weekend. However, we *can* 
 
 -->
 
-## Our Mission
-
-Create a high-accuracy tool for shelters to **correctly identify breed combinations and percentages** of cross and mixed-bred dogs and cats using `machine learning`, and help **raise adoption rates** of shelter animals as a result.
 
 <!--
 ## Our Results
@@ -48,9 +40,7 @@ Create a high-accuracy tool for shelters to **correctly identify breed combinati
 
 | :trophy: [Best Use of Google Cloud Platform](https://twitter.com/MLHacks/status/1094702441151545344) | :trophy: Best Almost Hack |
 | :---: | :---: |
-| <img src="img/Award_GCP.gif"/> | <img src="img/Award_Almost.gif"/> |
-
-<!-- | <a href="https://twitter.com/MLHacks/status/1094702441151545344"><img src="img/Award_GCP.jpg" width="353" height="492" border="2"/></a> | <img src="img/Award_Almost.gif"/> | -->
+| <img src="https://github.com/shazam4petz/shazam4petz.github.io/blob/master/img/Award_GCP.gif"/> | <img src="https://github.com/shazam4petz/shazam4petz.github.io/blob/master/img/Award_Almost.gif"/> |
 
 
 ## Tech Stacks
@@ -65,7 +55,18 @@ Create a high-accuracy tool for shelters to **correctly identify breed combinati
 ## Future Development
 
 * Further train our Model with more data, improving its precision as it scales
-* Implement a validation/filtering algorithm for photos uploaded by users, and store approved photos to our database for our Model
-* iOS & Android Apps, allowing photos taken via mobile phones to be analyzed direct within our app
-* Using the Wolfram Alpha API, provide users with health information specifically related to various mix-breeds of dogs and cats
-* Expand our service to other species of shelter animals
+* Implement a validation/filtering algorithm for photos uploaded by users
+* Store approved photos uploaded by users to our database for further Model-training
+* iOS & Android Apps: allowing photos taken via mobile phones to be analyzed direct within our app
+* Using the Wolfram Alpha API, provide users with health information for specific mix-breeds of dogs and cats
+* Expand our coverage to other species of animals
+
+
+## Our Team
+
+Brought together by our mutual love for animals, we found each other at the team-forming workshop of [Hack(H)er413](https://www.hackher413.com/), a 2-day hackathon from Feb 09-10, 2019, on the  [UMass Amherst](https://www.umass.edu/) campus.
+
+* [Miffy Chen](https://miffychen.tech/): Website, Google Cloud Platform, Design, Integration
+* [Anna Mun](https://shazam4petz.github.io/aboutus/index.html): Cloud Vision API
+* [Qing Zhao](https://shazam4petz.github.io/aboutus/index.html): AutoML Model
+* [Stephanie Murphy](https://shazam4petz.github.io/aboutus/index.html): REST API
