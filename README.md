@@ -14,24 +14,16 @@ According to an article in the [Smithsonian](https://www.smithsonianmag.com/smar
 
 Currently, there are no standardized procedures across the U.S. for identifying breeds of dogs and cats. The accuracy rate for breed-identification varies significantly from shelter to shelter and staff to staff. [Studies show that](https://www.vetmed.ufl.edu/2016/02/17/dna-studies-reveal-that-shelter-workers-often-mislabel-dogs-as-pit-bulls/) as high as **48%** of dogs with no genetic evidence of being Pit Bulls have been misidentified as Pit Bull-type dogs. Widely *(and incorrectly)* believed to be "dangerous" and aggressive in nature, **Pit Bulls** have one of the **lowest adoption rates**, and maintains to be **the most commonly restricted dog breed** from "pet-friendly" rental properties.
 
-Inaccurate breed-labelling of shelter animals **drastically limits their pool of potential adopters**, and as a result, **directly lowers their chances of being adopted.**
-
-<!--
-
-Inaccurate breed-identification drastically reduces the pool of potential adopters as **Pit Bulls** are the **most commonly restricted dog breed** of many "pet-friendly" rental properties, leading to *much* **lower rates of adoption** for mislabeled dogs.
-
-In the dogs that are mislabeled, [many](https://www.vetmed.ufl.edu/2016/02/17/dna-studies-reveal-that-shelter-workers-often-mislabel-dogs-as-pit-bulls/) are be labeled as **Pit Bulls**, a **commonly restricted dog breed** for many rental properties. This deadly mix-up costs <u>**limits their pool of potential adopters**</u>, and <u>**dramatically lowers their chances of being adopted**</u>.
-
-Aside from the issue of breed-specific bans on pets (also hugely problematic), mislabeling dogs as unfavorable breeds directly **strips them of possibilities to be adopted**.
-
-Sadly, this is not something we can reverse within a weekend. However, we *can* start by building a user-friendly tool that accurately <u>identifies possible breed combinations and percentages using a custom-trained Machine Learning Model.</u>
-
--->
+Inaccurate breed-labeling of shelter animals **drastically limits their pool of potential adopters**, and as a result, **directly lowers their chances of being adopted.**
 
 
 <!--
 ## Our Results
 
+To solve the issue at hand, we used Machine Learning to train a Model on Google Cloud's AutoML Vision using 7300+ photos of over 200 breeds of pure-bred dogs and cats. In our limited trial runs, we achieved a precision rate of 97.04% when identifying cross and mixed-bred combinations of dogs and cats, which is 3.259% higher than when using Google Cloud's Vision API for image analysis.
+
+AutoML Vision
+https://cloud.google.com/automl/ui/vision/models/list?project=hackher413-petid-231219
 
 -->
 
