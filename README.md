@@ -18,9 +18,10 @@ Inaccurate breed-labeling of shelter animals **drastically limits their pool of 
 
 
 <!--
+
 ## Our Results
 
-To solve the issue at hand, we used Machine Learning to train a Model on Google Cloud's AutoML Vision using 7300+ photos of over 200 breeds of pure-bred dogs and cats. In our limited trial runs, we achieved a precision rate of 97.04% when identifying cross and mixed-bred combinations of dogs and cats, which is 3.259% higher than when using Google Cloud's Vision API for image analysis.
+To solve the issue at hand, we used Machine Learning to train a Model on Google Cloud's AutoML Vision using 7300+ photos of 37 breeds (roughly 200 photos per breed) of pure-bred dogs and cats. In our limited trial runs, we achieved a precision rate of 97.04% when identifying cross and mixed-bred combinations of dogs and cats, which is 3.259% more accurate higher than using Google Cloud's Vision API.
 
 AutoML Vision
 https://cloud.google.com/automl/ui/vision/models/list?project=hackher413-petid-231219
